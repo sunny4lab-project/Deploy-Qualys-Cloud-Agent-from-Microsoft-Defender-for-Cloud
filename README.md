@@ -5,7 +5,7 @@ This guide provides a comprehensive walkthrough on deploying Qualys Cloud Agent 
 # **Here's how it works**
 
 Microsoft Defender for Cloud is like a control center for keeping your Azure infrastructure safe. It works with Qualys, a tool for checking vulnerabilities. Here's how it works: If some virtual machines don't have the right protection, Microsoft Defender for Cloud takes care of it. It puts small Qualys agents on these machines to collect info about potential issues and this process is automated. This info goes to the Qualys Cloud Platform, which then sends back details about vulnerabilities and health. It's like a teamwork system to keep everything secure and in check.
-<details><summary>Click her for the steps</summary>
+<details><summary>Click here for the steps</summary>
 
  # **Step 1:**
 **Qualys Integrations and setting up of Activation key**
