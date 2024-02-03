@@ -28,6 +28,7 @@ Microsoft Defender for Cloud is like a control center for keeping your Azure inf
  - ▶️ the Azure agent is currently supported for Windows and Linux. Click the Install Instructions
 button for Windows or Linux. 
 <img width="540" alt="Installation Requirement " src="https://github.com/sunny4lab-project/Deploy-Qualys-Cloud-Agent-from-Microsoft-Defender-for-Cloud/assets/139194279/567a923f-5164-4986-af84-a2b891a259e1">
+
  - ▶️ Click "Deploying in Azure Cloud" button and then Copy the License Code and Public Key. In the process of deploying the cloud agent in Azure, both the License and Public keys will be needed.
    <img width="538" alt="Deploying in Axure Cloud" src="https://github.com/sunny4lab-project/Deploy-Qualys-Cloud-Agent-from-Microsoft-Defender-for-Cloud/assets/139194279/b6fed228-8f9d-4c07-934e-e091653365c3">
 
