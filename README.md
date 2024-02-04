@@ -29,9 +29,46 @@ Microsoft Defender for Cloud is like a control center for keeping your Azure inf
 button for Windows or Linux. 
 # <img width="540" alt="Installation Requirement " src="https://github.com/sunny4lab-project/Deploy-Qualys-Cloud-Agent-from-Microsoft-Defender-for-Cloud/assets/139194279/567a923f-5164-4986-af84-a2b891a259e1">
 
- - ▶️ Click "Deploying in Azure Cloud" button and then Copy the License Code and Public Key. In the process of deploying the cloud agent in Azure, both the License and Public keys will be needed.
+ - ▶️ Click the "Deploying in Azure Cloud" button and then Copy the License Code and Public Key. In the process of deploying the cloud agent in Azure, both the License and Public keys will be needed.
    # <img width="538" alt="Deploying in Axure Cloud" src="https://github.com/sunny4lab-project/Deploy-Qualys-Cloud-Agent-from-Microsoft-Defender-for-Cloud/assets/139194279/b6fed228-8f9d-4c07-934e-e091653365c3">
 
+   # Step: 2
+
+   **Deploying Qualys Cloud Agents in Azure**
+
+Using Qualys Cloud Agent (QCA) for Vulnerability Assessment (Bring Your Own License - BYOL) allows you to deploy QCA through Microsoft Defender for Cloud. It includes an Autodeploy feature that automatically installs agents on any virtual machines in your subscription that lack protection. This service is accessible with both the free and standard tiers of Microsoft Defender for Cloud.
+
+- ➡️  Login into the Microsoft Azure portal and navigate to “Microsoft Defender for Cloud” and on the navigation panel to your left, click on "recommendations"
+  # <img width="784" alt="Recommendation settings" src="https://github.com/sunny4lab-project/Deploy-Qualys-Cloud-Agent-from-Microsoft-Defender-for-Cloud/assets/139194279/87a73103-0d2b-442b-82bf-609529dc36be">
+
+- ➡️ Click on Remediate Vulnerability and select "Machines should have a vulnerability assessment solution" 
+# <img width="794" alt="Remediate Vulnerability" src="https://github.com/sunny4lab-project/Deploy-Qualys-Cloud-Agent-from-Microsoft-Defender-for-Cloud/assets/139194279/3fca25cd-db06-41a6-b2fb-6ef4398cf148">
+
+- ➡️ On the description panel, scroll down and click on "unhealthy resources" Scroll down a bit select the VMs listed, and click on the "Fix" button. The Unhealthy resources column lists all the VM resources, without Qualys cloud agent.
+   # <img width="587" alt="VM should be fixed Vulnerability" src="https://github.com/sunny4lab-project/Deploy-Qualys-Cloud-Agent-from-Microsoft-Defender-for-Cloud/assets/139194279/1e6b457d-2933-4f35-9e2c-bbde9dd8a890">
+
+- ➡️ Choose a vulnerability assessment solution. Select Configure a new third-party vulnerability scanner(BYOL - requires a separate license). and then select Qualys extension to configure and click the "Proceed" button below.
+- **🗒️Note:-** 
+
+**Threat and vulnerability management by Microsoft Defender for Endpoint (included
+with Microsoft Defender for servers):** This option will automatically get the threat and
+vulnerability management findings without the need for additional agents. it is built-in
+module for Microsoft Defender for Endpoint, threat, and vulnerability management.
+
+**Deploy the integrated vulnerability scanner powered by Qualys (included with
+Microsoft Defender for servers):** This option is intended for non-Qualys customers who
+want to leverage the Qualys Vulnerability Assessment via Azure Defender included in the
+Microsoft Defender for Cloud. You should not choose this option if they
+want their assessment findings in their Qualys subscription. 
+
+It is recommended that Qualys customers choose the BYOL solutions. 
+**Deploy your configured third-party vulnerability scanner (BYOL - requires a separate
+license):** Choose this option if you already have an existing solution from Qualys. This
+option will expose vulnerability assessment findings to your Qualys subscription.
+Configure a new third-party vulnerability scanner (BYOL - requires a separate license):
+Choose this option if you want to create a new solution.
+
+# <img width="703" alt="Qualys Extension to configure" src="https://github.com/sunny4lab-project/Deploy-Qualys-Cloud-Agent-from-Microsoft-Defender-for-Cloud/assets/139194279/de2b7b0f-6acf-46b6-8289-b8d10c1a6f36">
 
 </details>
 
