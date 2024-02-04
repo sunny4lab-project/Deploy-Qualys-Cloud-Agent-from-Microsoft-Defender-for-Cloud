@@ -70,6 +70,9 @@ Choose this option if you want to create a new solution.
 
 # <img width="703" alt="Qualys Extension to configure" src="https://github.com/sunny4lab-project/Deploy-Qualys-Cloud-Agent-from-Microsoft-Defender-for-Cloud/assets/139194279/de2b7b0f-6acf-46b6-8289-b8d10c1a6f36">
 
+-➡️ Fill in all the needed information from Microsoft Azure Installation Requirements on the Qualys Cloud deployment page. You will need to provide the subscription, Resource group, Location, License, and Public Key. License and Public keys should be on your Qualys cloud agent deployment page. Subscriptions, Resource groups, and Locations should be your Azure information from the initial creation of your Azure account.
+# <img width="752" alt="Configure Qualys" src="https://github.com/sunny4lab-project/Deploy-Qualys-Cloud-Agent-from-Microsoft-Defender-for-Cloud/assets/139194279/754b18c3-f2d2-4e13-a9f1-f78af2dd0a7c">
+
 </details>
 
 
