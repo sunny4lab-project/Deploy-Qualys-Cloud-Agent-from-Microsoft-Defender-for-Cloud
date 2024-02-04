@@ -61,7 +61,6 @@ want to leverage the Qualys Vulnerability Assessment via Azure Defender included
 Microsoft Defender for Cloud. You should not choose this option if they
 want their assessment findings in their Qualys subscription. 
 
-It is recommended that Qualys customers choose the BYOL solutions. 
 **Deploy your configured third-party vulnerability scanner (BYOL - requires a separate
 license):** Choose this option if you already have an existing solution from Qualys. This
 option will expose vulnerability assessment findings to your Qualys subscription.
