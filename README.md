@@ -2,7 +2,7 @@
 
 # <img width="931" alt="Installed Cloud Agent " src="https://github.com/sunny4lab-project/Deploy-Qualys-Cloud-Agent-from-Microsoft-Defender-for-Cloud/assets/139194279/ec31c0ae-959f-4027-b32b-c6f4338438c4">
 
-
+This project involves deploying the Qualys Cloud Agent from Microsoft Defender for Cloud (formerly known as Azure Defender) within Azure environments. By leveraging the integration between Qualys and Microsoft Defender for Cloud, the project aims to enhance security measures by extending Qualys' capabilities to Azure assets. The deployment of Qualys Cloud Agent enables continuous monitoring and assessment of security vulnerabilities across Azure resources, providing real-time insights into the security posture of the environment. This integration streamlines security management processes, enhances threat detection capabilities, and strengthens overall security resilience within Azure environments. Ultimately, the project contributes to a more robust and proactive approach to cybersecurity within Azure cloud deployments.
 This guide provides a comprehensive walkthrough on deploying Qualys Cloud Agent from Microsoft Defender for Cloud on Azure, applicable to both Windows and Linux virtual machines. By following these steps, you can strengthen your security infrastructure, extending vulnerability management capabilities to your cloud workloads. This deployment enables the assessment of vulnerability findings within both Microsoft Defender for Cloud and your Qualys subscription, ensuring a robust and integrated approach to securing your Azure environment.
 
 
